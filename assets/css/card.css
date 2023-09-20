@@ -1,0 +1,73 @@
+@import url('header-footer.css');
+@import url('default.css');
+
+.card {
+    padding: 105px 0 125px 0;
+}
+.container {
+}
+.card__inner {
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    margin-bottom: 105px;
+}
+.card__body {
+    max-width: 630px;
+}
+.card__title {
+    font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+
+color: #E4E8ED;
+margin-bottom: 25px;
+}
+.card__text {
+    font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+color: #E4E8ED;
+margin-bottom: 65px;
+}
+.card__btns {
+    display: flex;
+    gap: 25px;
+}
+.card__btn {
+    background: linear-gradient(90deg, #4BC586 0%, #8ECEA7 50%, #4BC586 97.92%);
+    border-radius: 5px;
+    padding: 9px 48px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.btn-black{
+    background: linear-gradient(90deg, #262D35 0%, #3D4651 49.02%, #262D35 98.44%);
+    padding: 9px 53px;
+
+}
+.card__img img{
+    width: 400px;
+}
+.card__pluses {
+    display: flex;
+    justify-content: space-between;
+}
+.card__txt{
+    font-size: 20px;
+}
+.card__name {
+    font-weight: 600;
+font-size: 40px;
+margin-bottom: 10px;
+
+color: #8ECEA7;
+}
